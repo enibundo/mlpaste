@@ -9,11 +9,11 @@ I had already done something like this mlpaste.ml which had a couple of bugs and
 [1] Using mlpaste.py
 ---------------------
 
-* `python mlpaste.py file1,...,fileN` -- Pastes the file from file1 to fileN and displays URLs
-                                       - 
-* `python mlpaste.py -l LANGUAGE` -- Will use the `right` coloration for the language LANGUAGE.
+* `python mlpaste.py file1` ,..., `fileN` -- Pastes the file from file1 to fileN and displays results urls
+                                       
+* `python mlpaste.py -l LANGUAGE file` -- Will use the right coloration for the language LANGUAGE for the file and will display url.
 
 This is the first version of this script, so if you see anything wrong with it write me.
 You can use this freely, modify it and distribute it as you wish.
 
--- `eni`
+--eni
